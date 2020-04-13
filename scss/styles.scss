@@ -1,0 +1,16 @@
+@import "reset";
+
+$color: white;
+
+
+body {
+  background: $color;
+  color: #111;
+}
+
+* {
+  box-sizing: border-box;
+  &:after, &:before {
+    box-sizing: inherit;
+  }
+}
